@@ -35,7 +35,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Micromagnetic tests for Ubermag calculators.
+  summary: Micromagnetic tests for Ubermag calculators
   doc_url: http://micromagnetictests.readthedocs.io
   dev_url: https://github.com/ubermag/micromagnetictests
 
