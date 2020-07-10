@@ -1,6 +1,6 @@
 {% set name = "micromagnetictests" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "4b8959d41f88db67060730a3813b5d5e8c8b95aaeeba4b2f2e94a23e5f699adf" %}
+{% set version = "0.1.5" %}
+{% set sha256 = "7e9ddecd132ef04e4abf9f2b307a9871f7f93853c0c34217df7e408c1f045513" %}
 
 package:
   name: {{ name|lower }}
