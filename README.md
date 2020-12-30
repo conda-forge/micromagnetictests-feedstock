@@ -5,11 +5,13 @@ Home: http://ubermag.github.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/micromagnetictests-feedstock/blob/master/LICENSE.txt)
 
 Summary: Micromagnetic tests for Ubermag calculators.
 
+Development: https://github.com/ubermag/micromagnetictests
 
+Documentation: http://micromagnetictests.readthedocs.io
 
 Current build status
 ====================
