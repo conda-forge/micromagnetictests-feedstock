@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/micromagnetictests-feedstock/blob/master/LICENSE.txt)
 
-Summary: Micromagnetic tests for Ubermag calculators.
+Summary: Testing package for computational magnetism tools.
 
 Development: https://github.com/ubermag/micromagnetictests
 
@@ -119,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@fangohr](https://github.com/fangohr/)
+* [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 
