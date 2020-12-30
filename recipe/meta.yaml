@@ -1,6 +1,5 @@
 {% set name = "micromagnetictests" %}
 {% set version = "0.1.6" %}
-{% set sha256 = "169479aac5cf28120bd3289d297b22930052be0d6ee1133ac3c46799fb21e7ec" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 169479aac5cf28120bd3289d297b22930052be0d6ee1133ac3c46799fb21e7ec
 
 build:
   noarch: python
@@ -17,25 +16,25 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
-    - scipy >=1.4
-    - micromagneticmodel ==0.8.21
+    - python >=3.8
+    - scipy >=1.5
+    - micromagneticmodel ==0.8.22
 
 test:
   imports:
     - micromagnetictests
   commands:
-    - python -c "import sys; import micromagnetictests as mt; sys.exit(mt.test())"
+    - python -c "import sys; import micromagnetictests; sys.exit(micromagnetictests.test())"
 
 about:
   home: http://ubermag.github.io/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Micromagnetic tests for Ubermag calculators.
+  summary: Testing package for computational magnetism tools.
   doc_url: http://micromagnetictests.readthedocs.io
   dev_url: https://github.com/ubermag/micromagnetictests
 
@@ -43,3 +42,4 @@ extra:
   recipe-maintainers:
     - marijanbeg
     - fangohr
+    - lang-m
