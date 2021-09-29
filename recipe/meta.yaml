@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - scipy >=1.5
-    - micromagneticmodel ==0.11.1
+    - micromagneticmodel >=0.60.0,<0.61.0
 
 test:
   imports:
@@ -35,7 +35,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Testing package for computational magnetism tools.
-  doc_url: http://micromagnetictests.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/micromagnetictests.html
   dev_url: https://github.com/ubermag/micromagnetictests
 
 extra:
@@ -43,3 +43,4 @@ extra:
     - marijanbeg
     - fangohr
     - lang-m
+    - samjrholt
