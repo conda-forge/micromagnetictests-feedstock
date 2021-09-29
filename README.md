@@ -11,7 +11,7 @@ Summary: Testing package for computational magnetism tools.
 
 Development: https://github.com/ubermag/micromagnetictests
 
-Documentation: http://micromagnetictests.readthedocs.io
+Documentation: https://ubermag.github.io/documentation/micromagnetictests.html
 
 Current build status
 ====================
@@ -122,4 +122,5 @@ Feedstock Maintainers
 * [@fangohr](https://github.com/fangohr/)
 * [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
+* [@samjrholt](https://github.com/samjrholt/)
 
