@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - scipy >=1.5
-    - micromagneticmodel >=0.60.0,<0.61.0
+    - micromagneticmodel >=0.61.0,<0.62.0
 
 test:
   imports:
@@ -44,3 +44,4 @@ extra:
     - fangohr
     - lang-m
     - samjrholt
+    - swapneelap
