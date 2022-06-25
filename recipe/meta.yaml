@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - scipy >=1.5
-    - micromagneticmodel >=0.61.1
+    - micromagneticmodel >=0.62.0
 
 test:
   imports:
