@@ -1,5 +1,5 @@
 {% set name = "micromagnetictests" %}
-{% set version = "0.62.0" %}
+{% set version = "0.63.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cff18b7ede945d44af2b14d3f4d1a523f59397552502c6fb8fde7d47f1aaf144
+  sha256: a1d71fe86ee76aaa8432548868dc7b7ca1021cb4c2e66b458102ffb733181e06
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.8
     - scipy >=1.5
-    - micromagneticmodel >=0.62.0
+    - micromagneticmodel >=0.63.0
 
 test:
   imports:
