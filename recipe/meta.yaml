@@ -17,12 +17,13 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
     - pip
   run:
     - python >={{ python_min }}
     - scipy >=1.5
-    - micromagneticmodel >=0.64.0
-    - micromagneticdata >=0.65.3
+    - micromagneticmodel >=0.65.0
+    - micromagneticdata >=0.66.0
 
 test:
   requires:
